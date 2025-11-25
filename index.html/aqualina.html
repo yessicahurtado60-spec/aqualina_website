@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqualina - Aqua-Dunaliella</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e5799 0%, #207cca 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .logo-container {
+            max-width: 300px;
+            margin: 0 auto 1rem;
+        }
+
+        .logo {
+            width: 100%;
+            height: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Secciones */
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-dark {
+            background: white;
+            margin: 2rem auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e5799;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: #207cca;
+            margin: 1.5rem 0 1rem;
+        }
+
+        /* Grid para valores */
+        .valores-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .valor-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #207cca;
+        }
+
+        /* Principios operativos */
+        .principio {
+            background: #e3f2fd;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #1e5799;
+        }
+
+        .principio h4 {
+            color: #1e5799;
+            margin-bottom: 0.5rem;
+        }
+
+        .principio p {
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Misión y Visión */
+        .mision-vision {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1e5799;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            section {
+                padding: 2rem 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .mision-vision {
+                grid-template-columns: 1fr;
+            }
+            
+            .valores-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header con Logo -->
+    <header>
+        <div class="logo-container">
+            <!-- Reemplaza con tu logo -->
+            <div class="logo" style="text-align: center; font-size: 3rem; font-weight: bold;">AQUALINA</div>
+        </div>
+        <h1>Aqua-Dunaliella</h1>
+        <p class="tagline">Desalinización natural mediante biotecnología</p>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section class="section-dark">
+        <h2>Innovación en Purificación de Agua</h2>
+        <p>El <strong>Aqua-Dunaliella</strong> es un recipiente portátil revolucionario que utiliza la microalga <em>Dunaliella salina</em> para desalinizar y purificar agua de manera natural, sostenible y eficiente.</p>
+        
+        <h3 style="margin-top: 2rem;">¿Cómo funciona?</h3>
+        <p>Nuestro diseño integra una capa de microalgas adherida a las paredes interiores del recipiente. Al exponerse a la luz solar, estas microalgas se activan y:</p>
+        <ul style="margin: 1rem 0 1rem 2rem;">
+            <li>Absorben iones de sal durante la fotosíntesis</li>
+            <li>Oxidan contaminantes naturales</li>
+            <li>Inician el proceso de potabilización</li>
+        </ul>
+        
+        <h3>Sistema de Doble Filtración</h3>
+        <p>Para garantizar agua 100% segura, incluimos un filtro de membrana ultra-fino en la tapa que separa completamente las microalgas, entregando solo agua purificada.</p>
+    </section>
+
+    <!-- Valores -->
+    <section>
+        <h2>Nuestros Valores</h2>
+        <div class="valores-grid">
+            <div class="valor-card">
+                <h3>Sostenibilidad</h3>
+                <p>Operar de manera responsable, considerando el impacto ambiental, social y económico a largo plazo.</p>
+            </div>
+            <div class="valor-card">
+                <h3>Pasión</h3>
+                <p>Entusiasmo y energía puestos en la misión de la empresa y en el trabajo diario.</p>
+            </div>
+            <div class="valor-card">
+                <h3>Calidad</h3>
+                <p>Garantizar que los productos cumplan consistentemente con los estándares definidos y las expectativas.</p>
+            </div>
+            <div class="valor-card">
+                <h3>Confianza</h3>
+                <p>Creer en la capacidad, integridad y buenas intenciones de compañeros, clientes y stakeholders.</p>
+            </div>
+            <div class="valor-card">
+                <h3>Integridad</h3>
+                <p>Actuar con honestidad, transparencia y rectitud, haciendo lo correcto incluso cuando nadie mira.</p>
+            </div>
+            <div class="valor-card">
+                <h3>Innovación</h3>
+                <p>Buscar continuamente nuevas ideas y soluciones creativas para mejorar productos y procesos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Principios Operativos -->
+    <section class="section-dark">
+        <h2>Principios Operativos</h2>
+        
+        <div class="principio">
+            <h4>Sostenibilidad</h4>
+            <p>"Priorizamos el ciclo de vida circular del producto."</p>
+            <p>Siempre seleccionamos materiales reciclables o de bajo impacto, con la materia prima microbiológica, para el diseño en cuanto a la durabilidad.</p>
+        </div>
+
+        <div class="principio">
+            <h4>Calidad</h4>
+            <p>"El agua segura es nuestra métrica #1 de éxito."</p>
+            <p>Sometemos cada lote de producción a rigurosas pruebas de seguridad microbiológica y eficiencia de Desalinización antes de su distribución.</p>
+        </div>
+
+        <div class="principio">
+            <h4>Innovación</h4>
+            <p>"La experimentación es continua y está documentada."</p>
+            <p>Reservamos tiempo y recursos para investigar nuevas cepas de algas o mejoras en los filtros, documentando los fracasos como aprendizajes valiosos.</p>
+        </div>
+
+        <div class="principio">
+            <h4>Integridad</h4>
+            <p>"Comunicamos la verdad, especialmente sobre el desempeño."</p>
+            <p>Somos transparentes sobre las limitaciones de nuestro producto y evitamos exagerar los beneficios.</p>
+        </div>
+
+        <div class="principio">
+            <h4>Impacto Social</h4>
+            <p>"Diseñamos para la accesibilidad económica y geográfica."</p>
+            <p>Buscamos eficiencias en la producción para mantener un punto de precio accesible para comunidades de bajos recursos.</p>
+        </div>
+
+        <div class="principio">
+            <h4>Confianza</h4>
+            <p>"Asumimos la responsabilidad sin culpar."</p>
+            <p>Cuando hay un error, nos enfocamos en solucionarlo, aprender del proceso y mejorar el sistema.</p>
+        </div>
+    </section>
+
+    <!-- Misión y Visión -->
+    <section>
+        <h2>Misión y Visión</h2>
+        <div class="mision-vision">
+            <div class="card">
+                <h3>Misión</h3>
+                <p>En AQUALINA, nuestra misión es ofrecer una alternativa sostenible e innovadora para la obtención de agua potable. Desarrollamos soluciones basadas en biotecnología, como nuestro recipiente con Dunaliella salina, capaz de desalinizar y purificar el agua de forma natural. Buscamos garantizar calidad, accesibilidad y respeto por el medio ambiente, contribuyendo al bienestar de las comunidades y al cuidado del planeta.</p>
+            </div>
+            <div class="card">
+                <h3>Visión</h3>
+                <p>Ser reconocidos globalmente como una solución líder en el acceso sostenible a agua potable, impulsando la integración de biotecnología y diseño responsable para transformar la manera en que las comunidades obtienen y consumen agua. Aspiramos a construir un futuro donde cada persona, sin importar su ubicación o recursos, pueda acceder a agua segura, promoviendo el bienestar social, la protección del medio ambiente y una cultura de innovación continua.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AQUALINA - Aqua-Dunaliella. Todos los derechos reservados.</p>
+        <p>Innovación sostenible para un futuro con agua segura para todos.</p>
+    </footer>
+</body>
+</html>
